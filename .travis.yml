@@ -1,0 +1,20 @@
+language: node_js
+
+node_js:
+  - 10
+
+dist: trusty
+
+before_script:
+  - npm install
+
+script:
+  - npm test
+
+deploy:
+  provider: npm
+  email: daniel.s.fields@gmail.com
+  api_key:
+    secure: ahUvxcHFDhu82GMgDgFziU3zqNoqUIMvgam4Ce+5zxVNfeSIvMoX5yoW27cH4Bzccvn9senPbPORMxfFDQBIW7BlZkQhen9e0a4eaIpU9iHetGG7GD8923OLj6Ga0+d+ZaayeTnDj4G082mm6TXYqCK9APM28418Psjgf1Bkxd8EsaRIIA/c6cf1uOa3l82CCoBHuwFiovf9w1Ggj2zxPkRpWO09gbPPkjaC4hQ4LfFHaXOh3P6BYoCczkzutrqTqZ1mD1PagcR7pmlFzY+bAOYUFFiFjlT8IR0wz/RxtmEe/Mry1KiJKXeHxWWW39ebCHcvfOscxlamKK1xQo77syprcIu7Xyhfcq0mSgRgxr5TxMkb3JSYOP2gANGeIWAB+7oHkJusCQ6RO6ezwWW7PcJzocsTpWv4beHk57Y04bBtuebYlrckl1H1nehOCuFgYYmNa+O8pJ/DQTkAGqPJgprsZhmmqe0jXR3MBIVfBLF/xfa0B+YFSOM5ACM4AFKJ5PoNsiFx0EnBYj5QYAAdqO/K12Pcig3DrHyR+drMCf5F1LiNRRdGy79Jdu1TvQS6ii+XnqmY+50+H6RjPF6htTBfHSwbjFJ4+XHggNwWEYva6dfDtADMiMQlqr1xKatbeZI5f3DdcNuGQ+Gp6Y7//L6jaBkBGk4S/hwdzloDnC0=
+  on:
+    tags: true
