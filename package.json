@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-lumigu",
   "description": "Lumigu's ECMA Script code style",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Lumigu",
     "email": "oss@lumigu.com",
@@ -15,9 +15,10 @@
     "eslint": "^5.13.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-node": "^8.0.1",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "nyc": "^13.3.0"
   },
-  "homepage": "https://github.com/standard/eslint-config-standard",
+  "homepage": "https://github.com/lumigu/eslint-config-lumigu",
   "keywords": [
     "code",
     "ecma",
