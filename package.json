@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-lumigu",
   "description": "Lumigu's ECMA Script code style",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Lumigu",
     "email": "oss@lumigu.com",

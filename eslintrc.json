@@ -242,7 +242,7 @@
 
   "overrides": [
     {
-      "files": ["*.test.js", "*.spec.js"],
+      "files": ["*.test.js", "*.test.mjs", "*.spec.js", "*.spec.mjs"],
       "env": {
         "mocha": true
       },
